@@ -1,0 +1,131 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #0A369D;
+}
+#headNotes{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 10px;
+}
+h1{
+    color:black;
+    padding-top: 20px;
+}
+#buttonEdit{
+margin-right: 31px;
+}
+.buttons{
+    display: inline;
+    height:50px;
+    width: 80px;
+    font-size: larger;
+    color: black;
+    border-color: black;
+    
+    border-width: 3px;
+  }
+
+#note2add{
+    width: 100%;
+    resize: none;
+    height: 150px;
+    
+}
+.formAdd{
+    display: none;
+}
+#addFormBotton:hover{
+    background-color: #343a40;
+    border-color: black;
+    border-width: 2px;
+}
+button{
+    display: block;
+    margin-top: 10px;
+}
+.drag-container{
+   margin-bottom: 15px; 
+   border-style: solid;
+   border-color: #CFDEE7;
+   padding: 10px;
+
+}
+.drag-box{
+    background-color: #92B4F4;
+    border-color: #5E7CE2;
+    border-style: solid;
+    border-width: 3px;
+    margin: 15px; 
+    padding: 10px;
+    display:flex;
+    position: relative;
+}
+.drag-box:hover{
+cursor: move;
+}
+
+.textDiv:hover{
+    cursor: auto;
+}
+.buttonDelete{
+    font-family: sans-serif;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    background-color: #343a40;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 0px 5px 0px 5px;
+    
+}
+.buttonDelete:hover{
+    cursor: pointer;
+}
+textarea{
+    background-color: #CFDEE7;
+}
+
+.scroll{
+    overflow: hidden;
+    padding-top: 5px;
+}
+.scroll:hover{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+   /* Estilos barra (thumb) de scroll */
+  .scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
+  
+  .scroll::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+  
+  .scroll::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+   /* Estilos track de scroll */
+  .scroll::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+  }
+  
+  .scroll::-webkit-scrollbar-track:hover, 
+  .scroll::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+  }
+  
